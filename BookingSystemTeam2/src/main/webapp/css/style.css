@@ -1,0 +1,223 @@
+/* css Zen Garden style  */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* basic elements */
+
+/*-- Reset Code --*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend,
+	table, caption, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* start editing from here */
+a {
+	text-decoration: none;
+}
+
+.txt-rt {
+	text-align: right;
+} /* text align right */
+.txt-lt {
+	text-align: left;
+} /* text align left */
+.txt-center {
+	text-align: center;
+} /* text align center */
+.float-rt {
+	float: right;
+} /* float right */
+.float-lt {
+	float: left;
+} /* float left */
+.clear {
+	clear: both;
+} /* clear float */
+.pos-relative {
+	position: relative;
+} /* Position Relative */
+.pos-absolute {
+	position: absolute;
+} /* Position Absolute */
+.vertical-base {
+	vertical-align: baseline;
+} /* vertical align baseline */
+.vertical-top {
+	vertical-align: top;
+} /* vertical align top */
+.underline {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+	margin: 0 0 20px 0;
+} /* Add 5px bottom padding and a underline */
+nav.vertical ul li {
+	display: block;
+} /* vertical menu */
+nav.horizontal ul li {
+	display: inline-block;
+} /* horizontal menu */
+img {
+	max-width: 100%;
+}
+
+/*-- Fonts --*/
+@font-face {
+	font-family: BarkingCat;
+	src: url(../fonts/BarkingCat.otf) format('truetype');
+}
+
+@font-face {
+	font-family: PierSans-Black;
+	src: url(../fonts/PierSans-Black.otf) format('truetype');
+}
+
+@font-face {
+	font-family: PierSans-Bold;
+	src: url(../fonts/PierSans-Bold.otf) format('truetype');
+}
+
+@font-face {
+	font-family: PierSans-Regular;
+	src: url(../fonts/PierSans-Regular.otf) format('truetype');
+}
+/*-- Fonts --*/
+
+/* 
+.container {
+	margin-top: 50px;
+	align: center;
+	valign: center;
+} */
+body {
+	/* background-image: linear-gradient(rgba(255, 255, 255, 0.8),
+		rgba(255, 255, 255, 0.8)), url("../image/bg1.jsp"); */
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.7)), url("../image/bg1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, Genva, sans-serif;
+	font-size: 18px;
+}
+
+/* a:link, a:visited {
+	background-color: #0000a0;
+	color: #00ce67;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font: bold;
+}
+
+a:hover, a:active {
+	background-color: #008000;
+	color: white;
+	font-weight: bold; 
+}*/
+table {
+	/*  border: 1px groove black; */
+	frame: void;
+	rules: all;
+	border-collapse: collapse;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	cellspacing: 5;
+	cellpadding: 9;
+	font-family: verdana;
+	color: black;
+}
+
+/* th, td {
+	border: 1px solid black;
+		width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	cellspacing: 5;
+	cellpadding: 9;
+	font-family: verdana;
+	color: black;
+} */
+.name_and_role {
+	font-family: PierSans-Black;
+	cont-weight: bold;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+#HeadTitle {
+	align: center;
+	margin-top: 20px;
+	font-family: PierSans-Bold;
+}
+
+#menu {
+	valign: top;
+	align: center;
+	margin-left: 20%;
+	margin-top: 100px;
+}
+
+#content {
+	align: center;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+#footer {
+	align-self: center;
+}
+
+a:link, a:visited {
+	background-color: #F7D358;
+	margin-right: 2px;
+	border: 3px;
+	border-style: ridge;
+	font-size: 14px;
+	border-color: white;
+	border: inset;
+}
+
+a:hover, a:active {
+	background-color: orange;
+	color: white;
+}
+
+h3 {
+	background-color: orange;
+	font-size: 16px;
+	text-align: center;
+}

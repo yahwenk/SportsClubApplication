@@ -1,0 +1,27 @@
+body{
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../image/bg1.jpg);
+	background-size: cover;
+}
+table{
+	 border: 1px groove #00ff00;
+	 frame:void;
+	 rules:all;
+	 border-collapse: collapse;
+	width:10%;
+    margin-left:auto; 
+    margin-right:auto;
+    cellspacing: 5; cellpadding: 9;
+    font-family:verdana; color:black;
+    
+}
+
+th,td{
+	border: 1px solid black;
+	width:10%;
+    margin-left:auto; 
+    margin-right:auto;
+    cellspacing: 5; cellpadding: 9;
+    font-family:verdana; color:black;
+   
+}
+
